@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-align: none;
+    list-style: none;
+}
+body{
+    background-color: antiquewhite;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+h1{
+    text-transform: uppercase;
+}
+.gameboard{
+    width: 50%;
+    background-color: aquamarine;
+    margin: 2rem 0;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+table{
+    margin: 1rem 0;
+    border: 5px solid rgb(76, 65, 65);
+}
+table tr td{
+    text-transform: uppercase;
+    padding: 1rem;
+    color: rgb(88, 74, 74);
+}
+button{
+    text-transform: uppercase;
+    padding: 1 rem;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.zone{
+    width: 200px;
+}
